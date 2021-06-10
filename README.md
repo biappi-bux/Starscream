@@ -1,3 +1,14 @@
+# Backport Fork
+
+This fork of Starscream is to have convenience backports from their 4.x.x releases to the now abandoned 3.1.x release train.
+
+## Patches included
+
+- [fe5769](https://github.com/daltoniam/Starscream/commit/fe5769f2ae5a7473261ef3c3f3ecc76f1218c601) --
+  Conditionally include 'swift-nio-zlib-support' dependency to avoid warning on macOS by Mykola Varahash
+
+## Original README
+
 ![starscream](https://raw.githubusercontent.com/daltoniam/starscream/assets/starscream.jpg)
 
 Starscream is a conforming WebSocket ([RFC 6455](http://tools.ietf.org/html/rfc6455)) client library in Swift.
