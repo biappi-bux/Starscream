@@ -13,6 +13,8 @@
 		33CCF08A1F5DDC030099B092 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D88EAF811ED4DFD3004FE2C3 /* libz.tbd */; };
 		33CCF08C1F5DDC030099B092 /* Starscream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1360001C473BEF00AA3A01 /* Starscream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48F1584221FBC1200093F06A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CCF0921F5DDC030099B092 /* Starscream.framework */; };
+		8BFC205328D4C4A30081E84C /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC205228D4C4A30081E84C /* Data+Extensions.swift */; };
+		8BFC205428D4CA880081E84C /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC205228D4C4A30081E84C /* Data+Extensions.swift */; };
 		BBB5ABE5215E2217005B48B6 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5ABE1215E2217005B48B6 /* Compression.swift */; };
 		BBB5ABE6215E2217005B48B6 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5ABE2215E2217005B48B6 /* SSLClientCertificate.swift */; };
 		BBB5ABE7215E2217005B48B6 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB5ABE3215E2217005B48B6 /* SSLSecurity.swift */; };
@@ -26,6 +28,7 @@
 		5C13600C1C473BFE00AA3A01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		6B3E7A0019D48C2F006071F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742419BB1DC6BDBA003ACE43 /* StarscreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarscreamTests.swift; path = StarscreamTests/StarscreamTests.swift; sourceTree = "<group>"; };
+		8BFC205228D4C4A30081E84C /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Starscream/Data+Extensions.swift"; sourceTree = "<group>"; };
 		BBB5ABE1215E2217005B48B6 /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Starscream/Compression.swift; sourceTree = "<group>"; };
 		BBB5ABE2215E2217005B48B6 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
 		BBB5ABE3215E2217005B48B6 /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 				BBB5ABE2215E2217005B48B6 /* SSLClientCertificate.swift */,
 				BBB5ABE3215E2217005B48B6 /* SSLSecurity.swift */,
 				BBB5ABE4215E2217005B48B6 /* WebSocket.swift */,
+				8BFC205228D4C4A30081E84C /* Data+Extensions.swift */,
 				5C1360001C473BEF00AA3A01 /* Starscream.h */,
 				6B3E79E919D48B7F006071F7 /* Supporting Files */,
 			);
@@ -170,7 +174,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = Vluxe;
 				TargetAttributes = {
 					335FA1F41F5DF71D00F6D2EC = {
@@ -183,11 +187,11 @@
 			};
 			buildConfigurationList = 6B3E79E019D48B7F006071F7 /* Build configuration list for PBXProject "Starscream" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 6B3E79DC19D48B7F006071F7;
 			productRefGroup = 6B3E79E719D48B7F006071F7 /* Products */;
@@ -222,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFC205428D4CA880081E84C /* Data+Extensions.swift in Sources */,
 				335FA1F91F5DF71D00F6D2EC /* CompressionTests.swift in Sources */,
 				335FA1FA1F5DF71D00F6D2EC /* StarscreamTests.swift in Sources */,
 			);
@@ -235,6 +240,7 @@
 				BBB5ABE8215E2217005B48B6 /* WebSocket.swift in Sources */,
 				BBB5ABE7215E2217005B48B6 /* SSLSecurity.swift in Sources */,
 				BBB5ABE6215E2217005B48B6 /* SSLClientCertificate.swift in Sources */,
+				8BFC205328D4C4A30081E84C /* Data+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
